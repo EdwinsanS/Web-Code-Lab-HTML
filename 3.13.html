@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Details Form</title>
+</head>
+<body>
+
+    <table border="0" width="600" align="center" style="font-family: Arial; border: 1px solid black; padding: 20px;">
+        
+        <tr>
+            <th colspan="2" style="font-size: 24px; padding-bottom: 20px;">Employee Details</th>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="color: blue; font-weight: bold;">
+                01. Personal Information <hr color="blue" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Employee Name <span style="color: red;">*</span><br>
+                <input type="text" placeholder="First Name" style="width: 100%;">
+            </td>
+            <td>
+                Last Name<br>
+                <input type="text" placeholder="Last Name" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Starting Date<br>
+                <input type="date" style="width: 100%;">
+            </td>
+            <td>
+                Birth Date<br>
+                <input type="date" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Employee Type<br>
+                <select style="width: 100%;">
+                    <option>Select</option>
+                    <option>Full Time</option>
+                    <option>Part Time</option>
+                </select>
+            </td>
+            <td>
+                Gender<br>
+                <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Position<br>
+                <input type="text" placeholder="Position" style="width: 48%;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="color: blue; font-weight: bold; padding-top: 20px;">
+                02. Location <hr color="blue" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                City<br>
+                <input type="text" placeholder="City" style="width: 100%;">
+            </td>
+            <td>
+                State<br>
+                <input type="text" placeholder="State" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                ZIP<br>
+                <input type="text" placeholder="ZIP" style="width: 100%;">
+            </td>
+            <td rowspan="2">
+                Address<br>
+                <textarea placeholder="Address" rows="4" style="width: 100%;"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td> </tr>
+
+        <tr>
+            <td colspan="2" style="color: blue; font-weight: bold; padding-top: 20px;">
+                03. Contact Information <hr color="blue" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone<br>
+                <input type="tel" placeholder="Phone" style="width: 100%;">
+            </td>
+            <td>
+                Email<br>
+                <input type="email" placeholder="Email" style="width: 100%;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center" style="padding-top: 30px;">
+                <button type="submit" style="background-color: blue; color: white; border: none; padding: 12px 40px; border-radius: 5px;  font-weight: bold;">
+                    Register
+                </button>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

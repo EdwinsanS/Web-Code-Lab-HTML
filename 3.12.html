@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+	font-family: arial;
+	border-collapse: collapse;
+	width: 30%;
+}
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child {
+	background-color: black;
+}
+</style>
+</head>
+<body>
+
+<form>
+	<table>
+		<tr>
+			<th colspan="2" style="text-align: center;">Create Account</th>
+		</tr>
+		<tr>
+			<td><input type="text" placeholder="First Name"></td>
+			<td><input type="text" placeholder="Last Name"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="text" placeholder="Country" style="width: 98%;"></td>
+		</tr>
+		<tr>
+			<td><input type="email" placeholder="Email Address"></td>
+			<td><input type="tel" placeholder="Phone Number"></td>
+		</tr>
+		<tr>
+			<td><input type="password" placeholder="Password"></td>
+			<td><input type="password" placeholder="Confirm Password"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="checkbox" id="terms" checked>
+				<label for="terms">Terms and Condition</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;">
+				<button type="submit" style="padding: 10px 30px; background-color: blue; color: white; border: none;">Create</button>
+			</td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
